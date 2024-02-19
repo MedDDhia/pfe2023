@@ -1,0 +1,27 @@
+---
+global:
+  image:
+    tag: "v2.6.6"
+
+server:
+  extraArgs:
+    - --insecure
+
+# configs:
+#   credentialTemplates:
+
+      # https-creds:
+      #   url: https://github.com/MedDDhia/exercice_helm.git
+      #   username: MedDDhia 
+      #   password: MDf 06992325
+   
+#     ssh-creds:
+#      url: git@github.com:MedDDhia/exercice_helm.git
+#      sshPrivateKey: |
+#        -----BEGIN OPENSSH PRIVATE KEY-----
+#        b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+#        QyNTUxOQAAACD+OgkZ2tadRkuOtX5WZzdz3W+FSdx4JahvgHrlp43U4wAAAJjY7EHW2OxB
+#        1gAAAAtzc2gtZWQyNTUxOQAAACD+OgkZ2tadRkuOtX5WZzdz3W+FSdx4JahvgHrlp43U4w
+#        AAAEAIQ5R0FrdLXR5pc5RbaxsCyQo7Pc7DOaBvGtcY34ldd/46CRna1p1GS461flZnN3Pd
+#        b4VJ3HglqG+AeuWnjdTjAAAAE21lZGRoaWE1NEBnbWFpbC5jb20BAg==
+#        -----END OPENSSH PRIVATE KEY-----
